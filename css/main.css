@@ -7643,19 +7643,19 @@ a.text-dark:hover {
 /*# sourceMappingURL=bootstrap.css.map */
 @font-face {
   font-family: 'SinaNovaReg';
-  src: url('/fonts/SinaNovaReg-webfont.woff2') format('woff2'), url('/fonts/SinaNovaReg-webfont.woff') format('woff');
+  src: url('../HonestLeading/SinaNovaReg-webfont.woff2') format('woff2'), url('../HonestLeading/SinaNovaReg-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'sofiapro-light';
-  src: url('/fonts/sofiapro-light-webfont.woff2') format('woff2'), url('/fonts/sofiapro-light-webfont.woff') format('woff');
+  src: url('../HonestLeading/sofiapro-light-webfont.woff2') format('woff2'), url('../HonestLeading/sofiapro-light-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'HalisR-S-ExtraLight';
-  src: url('/fonts/HalisR-S-ExtraLight-webfont.woff2') format('woff2'), url('/fonts/HalisR-S-ExtraLight-webfont.woff') format('woff');
+  src: url('../HonestLeading/HalisR-S-ExtraLight-webfont.woff2') format('woff2'), url('../HonestLeading/HalisR-S-ExtraLight-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
