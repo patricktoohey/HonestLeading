@@ -7742,7 +7742,7 @@ h2 {
   font-size: 2.74em;
   padding-top: 0.7em;
   margin-bottom: 0px;
-  line-height: 150%;
+  line-height: 120%;
   margin-left: 0px;
   color: #12263c;
 }
@@ -7751,6 +7751,7 @@ h2.first {
 }
 @media screen and (max-width: 575px) {
   h2 {
+    font-size: 1.7em;
     padding-left: 0.6em;
   }
 }
@@ -7952,6 +7953,37 @@ img {
   margin-left: 0px;
   margin-right: 15px;
 }
+@media screen and (max-width: 575px) {
+  #logo-image {
+    max-width: 150px;
+  }
+}
+#header-menu {
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+@media screen and (max-width: 575px) {
+  #header-menu {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  #stones-wide {
+    display: none;
+  }
+}
+#stones {
+  display: none;
+}
+@media screen and (max-width: 575px) {
+  #stones {
+    display: block;
+    max-width: 575px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 #logo-image-footer {
   max-width: 200px;
   padding-left: 0px;
@@ -7987,9 +8019,9 @@ p {
   color: #12263c;
   line-height: 1.68em;
 }
-@media print {
+@media screen and (max-width: 575px) {
   p {
-    font-size: 1.0em;
+    font-size: 1em;
   }
 }
 .date {

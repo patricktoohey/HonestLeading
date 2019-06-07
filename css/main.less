@@ -127,7 +127,7 @@ h2 {
     font-size: 2.74em;
     padding-top: 0.7em;
     margin-bottom: 0px;
-    line-height: 150%;
+    line-height: 120%;
     margin-left: 0px;
     color: @sg-blue;
 
@@ -136,6 +136,7 @@ h2 {
     }
 
     @media screen and (max-width: 575px) {
+        font-size: 1.7em;
         padding-left: 0.6em;
     }
 
@@ -357,6 +358,35 @@ img {
     margin-top: 2em;
     margin-left: 0px;
     margin-right: 15px;
+
+    @media screen and (max-width: 575px) {
+        max-width: 150px;
+    }
+}
+
+#header-menu {
+    .flex-row;
+
+    @media screen and (max-width: 575px) {
+        .flex-column;
+    }
+}
+
+#stones-wide {
+    @media screen and (max-width: 575px) {
+        display: none;
+    }
+}
+
+#stones {
+    display: none;
+
+    @media screen and (max-width: 575px) {
+        display: block;
+        max-width: 575px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 #logo-image-footer {
@@ -399,8 +429,8 @@ p {
     color: @sg-blue;
     line-height: 1.68em;
 
-    @media print {
-        font-size: 1.0em;
+    @media screen and (max-width: 575px) {
+        font-size: 1em;
     }
 }
 
