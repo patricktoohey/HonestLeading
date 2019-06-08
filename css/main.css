@@ -7737,12 +7737,6 @@ h2.first {
     font-size: 1.7em;
   }
 }
-@media print {
-  h2 {
-    padding-top: 1em;
-    font-size: 1.96em;
-  }
-}
 hr {
   border: none;
   display: block;
@@ -8000,6 +7994,26 @@ footer {
 .continue {
   color: #d93630;
   text-align: right;
+}
+#about {
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+h2.credentials {
+  font-size: 1.74em;
+  padding-top: 0.5em;
+  margin-bottom: 0px;
+  line-height: 120%;
+  color: #12263c;
+}
+@media screen and (max-width: 575px) {
+  h2.credentials {
+    font-size: 1.4em;
+  }
 }
 .parent {
   width: 201px;
