@@ -8049,6 +8049,9 @@ footer {
   margin-bottom: 0px;
   line-height: 1.4em;
 }
+.profile {
+  margin-top: 0.5em;
+}
 .continue {
   color: #d93630;
   text-align: right;
@@ -8063,7 +8066,7 @@ footer {
   max-width: 100%;
   padding-left: 15px;
   padding-right: 0px;
-  margin-top: 0px;
+  margin-top: 3.5em;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -8071,7 +8074,7 @@ footer {
   max-width: 100%;
   padding-left: 15px;
   padding-right: 0px;
-  margin-top: 0px;
+  margin-top: 2em;
   margin-left: 0px;
   margin-right: 0px;
 }
