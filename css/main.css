@@ -7722,6 +7722,7 @@ h6 {
   color: #12263c;
 }
 h2 {
+  font-family: 'sofiapro-light', sans-serif;
   font-size: 2.74em;
   padding-top: 0.5em;
   margin-bottom: 0px;
@@ -7752,6 +7753,11 @@ h3.first {
   h3 {
     font-size: 1.4em;
   }
+}
+h4 {
+  font-family: 'sofiapro-light', sans-serif;
+  font-size: 1.4em;
+  margin-left: 15px;
 }
 hr {
   border: none;
@@ -7974,6 +7980,18 @@ footer {
 #privacy {
   color: #d93630;
 }
+#article-image-wide {
+  width: 1200px;
+  max-width: 100%;
+  height: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (max-width: 575px) {
+  #article-image-wide {
+    display: none;
+  }
+}
 #stones-wide {
   width: 1200px;
   max-width: 100%;
@@ -8013,6 +8031,14 @@ footer {
   padding-right: 0px;
   padding-bottom: 1.6em;
 }
+.callout {
+  font-family: 'sofiapro-light', sans-serif;
+  color: #d93630;
+  text-align: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 1.4em;
+}
 .continue {
   color: #d93630;
   text-align: right;
@@ -8024,6 +8050,19 @@ footer {
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
+}
+#book {
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 575px) {
+  #book {
+    padding-right: 15px;
+  }
 }
 h2.credentials {
   font-size: 1.74em;
