@@ -8034,6 +8034,20 @@ footer {
   margin-top: 0em;
   margin-left: 15px;
 }
+.schedule {
+  text-align: right !important;
+}
+@media screen and (max-width: 575px) {
+  .schedule {
+    text-align: left !important;
+    margin-bottom: 0.3em;
+  }
+}
+@media screen and (max-width: 575px) {
+  .schedule-block {
+    margin-top: 1em;
+  }
+}
 .green-backed {
   margin-top: 0.5em;
   background: #e7f2f6;
