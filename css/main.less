@@ -36,11 +36,22 @@
 
 }
 
+@font-face {
+    font-family: 'HalisR-S-Book';
+    src: url('../fonts/HalisR-S-Book-webfont.woff2') format('woff2'),
+    url('../fonts/HalisR-S-Book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 @sina-nova-reg: 'SinaNovaReg',
 serif;
 @sofia-pro-light: 'sofiapro-light',
 sans-serif;
 @halis-round-extra-light: 'HalisR-S-ExtraLight',
+sans-serif;
+@halis-round-book: 'HalisR-S-Book',
 sans-serif;
 
 // Standard elements
@@ -48,12 +59,25 @@ sans-serif;
 a {
     text-align: right;
     text-decoration: none;
-    color: @sg-red;
+    color: @sg-blue;
 
     &:hover {
         color: @sg-red;
+        font-family: @halis-round-book;
     }
 }
+
+tile {
+    border-style: solid;
+    border-color: @grey36;
+    border-width: 1px;
+    text-align: left;
+}
+
+a:hover {
+    text-decoration: none;
+    font-style: bold;
+  }
 
 body {
     font-size: 100%;
@@ -103,14 +127,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: @sina-nova-reg;
+    font-family: @sofia-pro-light;
     color: @sg-blue;
 }
 
 h2 {
     font-family: @sofia-pro-light;
     font-size: 2.74em;
-    padding-top: 0.5em;
     margin-bottom: 0px;
     line-height: 120%;
     margin-left: 15px;
@@ -183,6 +206,7 @@ hr {
 
 img {
     display: block;
+    max-width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -190,11 +214,6 @@ img {
     margin-bottom: 1.7em;
     padding-left: 0px;
     padding-right: 15px;
-
-    @media print {
-        max-width: 100%;
-        height: auto;
-    }
 }
 
 p {
@@ -248,7 +267,7 @@ nav {
     max-width: 100%;
     padding-left: 0px;
     padding-right: 0px;
-    margin-top: 2em;
+    margin-top: 3em;
     margin-left: 0px;
     margin-right: 0px;
 
@@ -430,6 +449,18 @@ footer {
 .continue {
     color: @sg-red;
     text-align: right;
+}
+
+.cell-image {
+    max-height: 300px;
+}
+
+.cell-text-left {
+
+}
+
+.cell {
+    margin-top: 4em;
 }
 
 #about {

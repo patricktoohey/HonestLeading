@@ -7659,13 +7659,30 @@ a.text-dark:hover {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'HalisR-S-Book';
+  src: url('../fonts/HalisR-S-Book-webfont.woff2') format('woff2'), url('../fonts/HalisR-S-Book-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 a {
   text-align: right;
   text-decoration: none;
-  color: #d93630;
+  color: #12263c;
 }
 a:hover {
   color: #d93630;
+  font-family: 'HalisR-S-Book', sans-serif;
+}
+tile {
+  border-style: solid;
+  border-color: #a3a3a3;
+  border-width: 1px;
+  text-align: left;
+}
+a:hover {
+  text-decoration: none;
+  font-style: bold;
 }
 body {
   font-size: 100%;
@@ -7718,13 +7735,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'SinaNovaReg', serif;
+  font-family: 'sofiapro-light', sans-serif;
   color: #12263c;
 }
 h2 {
   font-family: 'sofiapro-light', sans-serif;
   font-size: 2.74em;
-  padding-top: 0.5em;
   margin-bottom: 0px;
   line-height: 120%;
   margin-left: 15px;
@@ -7792,6 +7808,7 @@ hr.half {
 }
 img {
   display: block;
+  max-width: 100%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -7799,12 +7816,6 @@ img {
   margin-bottom: 1.7em;
   padding-left: 0px;
   padding-right: 15px;
-}
-@media print {
-  img {
-    max-width: 100%;
-    height: auto;
-  }
 }
 p {
   font-family: 'SinaNovaReg', serif;
@@ -7862,7 +7873,7 @@ nav a {
   max-width: 100%;
   padding-left: 0px;
   padding-right: 0px;
-  margin-top: 2em;
+  margin-top: 3em;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -8042,6 +8053,12 @@ footer {
 .continue {
   color: #d93630;
   text-align: right;
+}
+.cell-image {
+  max-height: 300px;
+}
+.cell {
+  margin-top: 4em;
 }
 #about {
   max-width: 100%;
