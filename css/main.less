@@ -315,7 +315,7 @@ hr {
     color: @grey36;
 
     @media screen and (max-width: 575px) {
-        font-size: 1.4em;
+        font-size: 1.7em;
         margin-top: -2.1em;
     }
 }
@@ -443,12 +443,20 @@ footer {
     }
 }
 
+a h4 {
+    text-align: left;
+}
+
 .green-backed {
     margin-top: 0.5em;
     background: @sg-green-light;
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 1.6em;
+}
+
+.green-backed .green {
+    margin-right: 15px;
 }
 
 .callout {
@@ -473,12 +481,18 @@ footer {
     max-height: 300px;
 }
 
-.cell-text-left {
-
+.cell {
+    .col-md-4;
+    .col-sm-4;
+    .green-backed;    
+    
+    @media screen and (max-width: 575px) {
+        padding-right: 0px;
+    }
 }
 
-.cell {
-    margin-top: 4em;
+.right-end {
+    padding-right: 0px;
 }
 
 #about {
